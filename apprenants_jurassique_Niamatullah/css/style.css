@@ -1,0 +1,191 @@
+ *{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    border-right: 1px solid gray;
+}
+
+/******************le premier imgae background dinosaure*********************/
+.jurassique{
+    width: 100%;
+    background-image: url(../img/dinosaure.jpg);
+    background-size: cover;
+}
+
+.climatise img{
+    position: relative;
+    left: 81.5%;
+}
+
+
+ nav{
+    height: 80px;
+    background-color:  rgba(49, 44, 44, 0.582);
+    line-height: 70px;
+}
+
+nav ul li{
+    display: inline;
+    list-style: non;
+    padding-left: 8%;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+}
+
+nav a:hover{
+    transition-duration: 1s;
+    color: blue;
+    font-size: 22px;
+}
+
+.en{
+    color: darkgray;
+}
+
+
+/* BILLETTERIE */
+.bill{
+    background-color: #1C5F81;
+    border: 5px solid #1C5F81;
+}
+
+.bill:hover{
+    color:  #1C5F81;
+    background-color: white;
+}
+
+
+.verrez img{
+    display: inline;
+    padding-left: 27%;
+}
+
+/* c'est le 2éme section h1 et avec une image */ 
+.dinosaure h1{
+    text-align: center;
+    font-size: 45px;
+}
+
+.dinosaure img{
+    display: inline;
+    padding-left: 30%;
+}
+
+
+
+/* 3éme section information jurassique world */
+
+.world{
+    width: 40%;
+    padding-left: 30.5%;
+}
+
+.world h3{
+    text-align: center;
+}
+
+.world p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.world a{
+    text-align: center;
+    background-color: #1C5F81;
+    color: white;
+    border: 10px solid #1C5F81;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.world a:hover{
+    color:  #1C5F81;
+    background-color: white;
+    transition-duration: 1s;
+    font-size: 20px;
+}
+/* fin de 3éme section */
+
+
+
+.tarifs{ /* 4éme section l'addresse achte et les horaires */
+    width: 40%;
+    padding-left: 30%;
+    padding-top: 5%;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.acheter{
+    width: 48%;
+    float: left;
+    padding-left: 2%;
+}
+
+.enligne{
+    width: 50%;
+    text-align: center;
+    background-color:  #1C5F81;
+    border: 5px solid  #1C5F81;
+    color: white;
+}
+
+.horaires{
+    width: 40%;
+    float: right; 
+}
+
+iframe{
+    width: 100%;
+}
+
+.clear{
+    clear: both;
+} /* fin de 4éme section */
+
+
+
+.partenaires h2{ /* le reste c'est derniére section des partenaires et le footer */
+  font-size: 35px;
+  text-align: center;
+  padding: 5%;
+  padding-bottom: 1%;
+}
+
+.logo img{
+    display: inline;
+    margin-left: 16%;
+    width: 60px;
+    margin-bottom: 3%;
+}
+
+.logo .tf{
+    width: 100px;
+}
+
+.logo .journal{
+    width: 120px;
+}
+
+
+footer{
+    padding: 3%;
+    height: 150px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer img{
+    width: 250px;
+    height: 200px;
+
+}

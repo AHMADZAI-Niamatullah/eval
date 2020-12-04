@@ -1,0 +1,361 @@
+body{
+    background-color: aquamarine;
+}
+
+#container{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+    border: 1px solid gray;
+    box-shadow: 1px 0.5px 1px 3px rgb(187, 187, 187);
+}
+
+header{
+   height: 100px;
+}
+
+.logo{
+    width: 25%;
+}
+.logo img{
+    position: absolute;
+    padding: 10px;
+    top: 25px;
+}
+
+.logo h1{
+    position: relative;
+    top: 1px;
+    left: 65px;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.logo p{
+    position: relative;
+    left: 50px;
+    color: violet;
+    bottom: 15px;
+}
+
+
+.aide{
+    width: 23%;
+}
+
+.aide h2{
+    position: relative;
+    left: 470px;
+    bottom: 100px;
+    font-size: 25px;
+    color: #01B0F0;
+}
+
+.aide img{
+    position: relative;
+    left: 470px;
+    bottom: 120px;
+}
+
+.heure{
+    position: relative;
+    left: 470px;
+    bottom: 170px;
+    color: red;
+}
+
+.numero{
+    position: relative;
+    left: 520px;
+    bottom: 160px;
+    color:  #01B0F0;
+}
+
+.panier{
+    width: 22%;
+}
+
+.compte{
+    position: relative;
+    left: 900px;
+    bottom: 270px;
+    color: #01b0f0;   
+}
+
+hr{
+position: relative;
+left: 818px;
+bottom: 280px;
+color: #01b0f0;
+}
+
+.panier img{
+position: relative;
+left: 800px;
+bottom: 290px;
+color: #01b0f0;
+}
+
+.panier p{
+position: relative;
+left: 860px;
+right: 20px;
+bottom: 345px;
+color: #01b0f0;
+}
+
+nav{
+    height: 25px;
+    background-color: #01b0f0;
+    color: white;
+}
+
+.Accueil a{
+    text-decoration: none;
+    padding: 4.5%;
+    transition: 1ms;
+    font-size: 18px;
+    color: white;
+    transition: 1ms;
+}
+
+nav .Accueil a:hover{
+    color: maroon;
+    transition-duration: 1ms;
+    font-size: 20px;
+
+}
+
+
+.first img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.sec{
+    height: 150px;
+    background-color: wheat;
+}
+
+.paiement{
+    width: 23%;
+    float: left;
+}
+
+.paiement h2{
+    color: #01b0f0;
+    position: relative;
+    left: 40px;
+    font-size: 18px;
+}
+
+.paiement p{
+    position: relative;
+    left: 40px;
+    bottom: 11px;
+}
+
+.paiement img{
+    position: relative;
+    left: 40px;
+    bottom: 13px;
+}
+
+
+.nous{
+    width: 33%;
+    float: left;
+}
+
+
+.nous img{
+    position: relative;
+    left: 60px;
+    bottom: 13px;
+    height: 150px;
+}
+
+.nous h2{
+    position: relative;
+    left: 135px;
+    bottom: 160px;
+    color: #01b0f0;
+    font-size: 20px;
+}
+
+.nous p{
+    position: relative;
+    left: 135px;
+    bottom: 170px;
+}
+
+
+.service{
+    width: 20%;
+    float: left;
+}
+
+.service h2{
+    position: relative;
+    left: 260px;
+    bottom: 10px;
+    color: #01b0f0;
+    font-size: 20px;
+    
+}
+
+
+.service p{
+    position: relative;
+    left: 260px;
+    bottom: 20px;
+    
+}
+
+.three{
+        background-color: white;
+        height: 190px;
+      }
+
+.firstbloc ,.secbloc, .thiredbloc{
+    box-shadow: 2px 2px 2px 2px gray;
+    width: 28%;
+    border-radius: 15px;
+    border: 1px black solid;
+    margin: 2%;
+    height: 180px;
+}
+
+
+.firstbloc{
+    position: relative;
+    left: 20px;
+}
+
+.secbloc{
+    position: relative;
+    left: 355px;
+    bottom: 205px;
+}
+
+.thiredbloc{
+    position: relative;
+    left: 700px;
+    bottom: 405px;
+
+}
+
+.firstbloc h3{
+    position: relative;
+    left: 120px;
+    bottom: 140px;
+}
+
+.firstbloc p{
+    position: relative;
+    left: 70px;
+    bottom: 280px;
+}
+
+.firstbloc a{
+    position: relative;
+    left: 158px;
+    bottom: 10px;
+}
+
+.firstbloc img{
+    position: relative;
+    left: 5px;
+    bottom: 150px;
+}
+
+
+.secbloc h3{
+    position: relative;
+    left: 110px;
+    bottom: 10px;
+}
+
+.secbloc p{
+    position: relative;
+    left: 90px;
+    bottom: 110px;
+}
+
+.secbloc a{
+    position: relative;
+    left: 160px;
+    bottom: 10px;
+}
+
+.thiredbloc h3{
+    position: relative;
+    left: 100px;
+    bottom: 10px;
+}
+
+.thiredbloc img{
+    position: relative;
+    left: 10px;
+    bottom: 15px;
+}
+
+.thiredbloc p{
+    position: relative;
+    left: 100px;
+    bottom: 130px;
+}
+
+.thiredbloc a{
+    position: relative;
+    left: 160px;
+    bottom: 10px;
+}
+
+
+.qeme{
+    height: 30px;
+    background-color: lightskyblue;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer a{
+    text-decoration: none;
+    display: inline-block;
+    float: left;
+    padding: 20px;
+    position: relative;
+    bottom: 15px;
+    transition: 1ms;
+    color: white;
+}
+
+footer a:hover{
+    font-size: 20px;
+    color: maroon;
+    transition-duration: 1ms;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
