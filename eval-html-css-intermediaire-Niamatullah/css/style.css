@@ -1,0 +1,282 @@
+
+*{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+header{
+    height: 223px;
+    background-color: lightgray;
+}
+
+
+.sport{
+    margin-left: 20%;
+    margin-right: 20%;
+    float: left;
+    padding-top: 4.4%;
+    padding-left: 3%;
+    margin-top: 2%;
+    border-left: 4px solid yellow;
+}
+
+
+.sport img{
+    width: 200px;
+}
+
+.sport span{
+    color: yellow;
+}
+
+.compte{
+    background-color: rgb(184, 164, 164);
+    margin-top: 3%;
+    height: 70px;
+    width: 400px;
+    border: 1px solid black;
+    float: left;
+    padding: 4px;
+}
+
+.compte p{
+    display: inline;
+    padding-left: 10%;
+
+}
+
+.clear{
+    clear: both;
+}
+
+
+.bonjour{
+    font-weight: bolder;
+    font-size: 22px;
+    position: relative;
+    right: 120px;
+    top: 150px;
+}
+
+.navAncre{
+    position: relative;
+    top: 150px;
+    right: 350px;
+}
+
+.navAncre nav a{
+    border-left: 1px solid gray;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 10px;
+    transition: 1s;
+    color: black;
+}
+
+nav a:hover{
+    transition-duration: 1s;
+    color: blue;
+    font-size: 20px;
+}
+
+
+#container{
+
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: white;
+}
+
+.catalogue{
+    margin-top: 12px;
+}
+
+.catalogue img{
+    width: 100%;
+}
+
+
+ figure {
+    margin: auto;
+    width: 250px;
+    background-color: rgba(43, 40, 40, 0.596);
+}
+
+figcaption {
+    color: black;
+    padding: 2px;
+    font-style: oblique;
+    position: relative;
+    bottom: 30px;
+    left: 40px;
+}
+
+figure img{
+    height: 250px;
+    width: 250px;
+    -webkit-box-shadow: 0px 2px 5px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 5px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 5px 3px rgba(0,0,0,0.75);
+}
+
+.metal{
+    float: left;
+    padding: 20px;
+    margin-left: 8%;
+}
+
+
+.gant{
+    float: left;
+    padding: 20px;
+    margin-left: 8%;
+}
+
+.boxe{
+    float: left;
+    padding: 20px;
+    margin-left: 8%;
+}
+
+.combat{
+    float: left;
+    padding: 20px;
+    margin-left: 8%;
+}
+
+.kalimax a{
+    color: rgb(20, 19, 19);
+    font-size: 1.5rem;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.kalimax span{
+    font-size: 20px; 
+    color: black;
+    padding: 10px;
+    text-decoration: line-through;
+}
+
+.kalimax p{
+    color: orange;
+    font-size: 30px;
+}
+
+.voir {
+    display: flex;
+    justify-content: space-around;
+}
+
+.percentage{
+    height: 50px;
+    width: 80px;
+    background-color: rgb(39, 20, 20);
+    border-radius: 28px 28px 28px 28px;
+    -moz-border-radius: 28px 28px 28px 28px;
+    -webkit-border-radius: 28px 28px 28px 28px;
+    border: 0px solid #000000;
+    position: relative;
+    bottom: 290px;
+    left: 200px;
+}
+
+.percentage p{
+    text-align: center;
+    color: rgb(245, 245, 11);
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.voir{
+    position: relative;
+    bottom: 80px;
+}
+
+
+.nous{
+    background-color: white;
+    position: absolute;
+    left: 720px;
+    top: 148.5%;
+    height: 40px;
+    width: 450px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.nous ul li{
+    list-style: none;
+    display: inline;
+    padding: 5%;
+}
+
+ul li a{
+    text-decoration: none;
+    transition: 1s;
+    color: #000;
+}
+
+ul li a:hover{
+    transition-duration: 1s;
+    color: red;
+    font-size: 20px;
+}
+
+.space{
+    height: 25px;
+    background-color: rgb(114, 88, 88);
+    width: 100%;
+    position: absolute;
+    top: 147%;
+}
+
+
+footer{
+    height: 330px;
+    background-color: rgb(44, 39, 39);
+}
+
+.end{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.livre{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.livre img{
+    width: 50px;
+}
+
+.livre p{
+    text-align: center;
+    color: white;
+}
+
+.icon{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 6%;
+    padding-left: 25%;
+}
+
+
+small{
+    color: white;
+    padding-left: 40%;
+}
+
+.clear{
+    clear: both;
+}

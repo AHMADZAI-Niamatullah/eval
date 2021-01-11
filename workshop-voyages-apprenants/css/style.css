@@ -1,0 +1,20 @@
+body{
+    background-color: whitesmoke;
+    border-right: 1px solid black;
+}
+
+header{
+    height: 70px;
+    background-color: rgb(115, 212, 245);
+    display: flex;
+    justify-content: space-between;
+}
+   
+.bird img{
+    height: 60px;
+}
+
+ul li{
+    height: 40px;
+    display: inline;
+}

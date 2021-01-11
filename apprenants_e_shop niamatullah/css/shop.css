@@ -1,0 +1,144 @@
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+    height: auto;
+    background-color: bisque;
+}
+
+#container{
+    background-color: white;
+}
+
+/*********************HEADER**************************/
+
+header{
+    height: 210px;
+    background-color: whitesmoke;
+}
+
+
+.aide{
+    height: 30px;
+    background-color: maroon;
+    color: white; 
+}
+
+.aide i{
+        font-size: 15px;
+        color: white;
+        font-weight: bolder;
+}
+
+ .satisfait{
+    position: absolute;
+    left: 300px;
+    margin: 5px;
+}
+
+.besoin{
+    left: 610px;
+    position: absolute;
+    margin: 5px;
+}
+
+.paie{
+    left: 1100px;
+    position: absolute;
+    margin: 5px;
+}
+
+.shop{
+    margin-left: 7%;
+    padding: 3%; 
+}
+
+
+.davis{
+    position: absolute;
+    left: 58%;
+    top: 6%;
+}
+
+.conseils{
+    position: absolute;
+    left: 58%;
+    top: 17%;
+}
+
+.compte{
+    position: absolute;
+    left: 73%;
+    top: 5%;
+}
+
+.panier img{
+    height: 20px;
+}
+.panier{
+    position: absolute;
+    left: 74%;
+    top: 19%;
+}
+
+/********************************NAV***********************************/
+
+
+nav .navAncre{
+    height: 50px;
+    background-color: whitesmoke;
+    display: inline;
+    border: 1px lightgray solid;
+}
+
+
+.navAncre a{
+  font-size: 15px;
+  color: maroon;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 21.5px;
+}
+
+.navAncre form{
+    font-size: 15px;
+    color: maroon;
+    font-weight: bolder;
+    text-decoration: none;
+    display: inline;
+    padding: 5px;
+  }
+
+  .navAncre i{
+    font-size: 15px;
+    color: maroon;
+    font-weight: bolder;
+    text-decoration: none;
+    display: inline;
+  }
+
+
+
+
+  /************************lPREMIER SECTION**********************/
+.premierSection img{
+    height: 400px;
+    display: flex;
+}
+
+figure{
+    margin: auto;
+    width: 300px;
+    display: block;
+    background-color: red;
+    text-align: center;
+}
+
+figcaption{
+    color: white;
+    text-align: center;
+    padding: 2px;
+    font-style: oblique;
+}
+.groupimg{
+    height: 200px;
+}

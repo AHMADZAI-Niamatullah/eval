@@ -1,0 +1,229 @@
+body{
+    background-color: whitesmoke;
+    border-right: 1px solid gray;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+header{
+    background: rgb(117, 197, 117); 
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.bird img{
+    height: 50px;
+}
+
+header h1{
+    font-size: 28px;
+    color: white;
+    display: inline-block;
+    vertical-align: 10px;
+    
+}
+
+ul li {
+    display: inline;
+    font-size: 18px;
+    list-style: none;
+    padding: 15px;
+    font-style: italic;
+}
+
+nav a{
+    text-decoration: none;
+    transition: 1ms;
+    color: white;
+}
+
+nav a:hover{
+    color: maroon;
+    font-size: 20px;
+    transition-duration: 1ms;
+}
+
+.marque{
+    background-color:green;
+    padding: 5px;
+    border: 1px solid white;
+    color: yellow;
+}
+
+.japon{
+    margin-top: 1%;
+}
+
+
+.japon, .inde, .thai{
+    margin-bottom: 1%;
+    color: white;
+}
+
+.japon{
+    padding-left: 10%;
+    padding-top: 2%;
+    position: relative;
+    margin-left: 15%;
+    margin-right: 15%;
+    background: rgb(239,175,115);
+    background: linear-gradient(0deg, rgba(239,175,115,1) 11%, rgba(231,78,244,1) 75%); 
+    border-radius: 10px;
+    -webkit-box-shadow: 19px 33px 124px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 19px 33px 124px -5px rgba(0,0,0,0.75);
+     box-shadow: 19px 33px 124px -5px rgba(0,0,0,0.75)
+}
+
+.japon img{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 2%;
+}
+
+.first {
+    width: 50%;
+}
+
+.first h2{
+    position: absolute;
+    bottom: 200px;
+    left: 470px;
+}
+
+.first p{
+    position: absolute;
+    bottom: 30px;
+    left: 300px;
+    margin-left: 18%;
+    margin-right: 5%;
+    text-align: justify;
+}
+
+
+
+
+.thai{
+    padding-left: 10%;
+    padding-top: 2%;
+    position: relative;
+    margin-left: 15%;
+    margin-right: 15%;
+    background: rgb(232,244,108);
+    background: linear-gradient(0deg, rgba(232,244,108,1) 7%, rgba(228,148,186,1) 48%, rgba(133,93,245,1) 89%); 
+    border-radius: 10px;
+    -webkit-box-shadow: 19px 33px 124px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 19px 33px 124px -5px rgba(0,0,0,0.75);
+     box-shadow: 19px 33px 124px -5px rgba(0,0,0,0.75)
+}
+
+.thai img{
+    position: relative;
+    left: 500px;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 2%;
+}
+
+.sec h2{
+    position: absolute;
+    bottom: 200px;
+    left: 250px;
+}
+
+.sec p{
+    right: 350px;
+    top: 80px;
+    width: 50%;
+    position: absolute;
+    margin-left: 1%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+
+
+.inde{
+    padding-left: 10%;
+    padding-top: 2%;
+    position: relative;
+    margin-left: 15%;
+    margin-right: 15%;
+    background: rgb(215,148,136);
+    background: linear-gradient(0deg, rgba(215,148,136,1) 7%, rgba(244,242,149,1) 57%, rgba(133,93,245,1) 89%); 
+    border-radius: 10px;
+    -webkit-box-shadow: 19px 33px 124px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 19px 33px 124px -5px rgba(0,0,0,0.75);
+     box-shadow: 19px 33px 124px -5px rgba(0,0,0,0.75)
+}
+
+.inde img{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 2%;
+}
+
+.three h2{
+    position: absolute;
+    bottom: 180px;
+    left: 840px;
+}
+
+.three p{
+    position: absolute;
+    bottom: 30px;
+    left: 300px;
+    margin-left: 18%;
+    margin-right: 5%;
+    text-align: right;
+}
+
+
+
+footer{
+    height: 50px;
+    background-color: green;
+
+}
+
+footer small{
+    position: relative;
+    top: 10px;
+    display: inline;
+    color: white;
+    padding: 1%;
+}
+
+#payer a{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    left: 75%;
+    transition: 1ms;
+    bottom: 5px;
+    display: inline;
+}
+
+#payer a:hover{
+ transition-duration: 1ms;
+ color: darkblue;
+ font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Tp_jQuery</title>
+</head>
+<style>
+
+
+    h1{
+        font-size: 50px;
+        color: maroon;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+
+    h2{
+        font-size: 40px;
+        text-align: center;
+    }
+
+
+/* 1éme exercice */
+    #blue{
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+        margin-left: 120px;
+    }
+
+    #change{
+        height: 20px;
+        width: 100px;
+        background-color: rgb(228, 228, 228);
+        border: 1px solid black;
+        margin: 10px;
+        margin-left: 120px;
+    }
+
+/* 2éme exercice */
+
+    #canon{
+        height: 150px;
+        width: 200px;
+        border: 8px solid orange;
+        margin-left: 120px;
+    }
+
+
+
+
+/* 4éme exercice */
+
+#noire{
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+    margin-left: 120px;
+}
+
+/*5éme exercice*/
+
+h2{
+    font-size: 45px;
+    text-align: center;
+    color: blue;
+}
+.mySlides {
+    display:none;
+    border: 5px solid gray;
+}
+
+.show{
+    display: flex;
+    justify-content: center;
+}
+
+.show img{
+    width: 700px;
+    height: 500px;
+}
+
+</style>
+
+
+
+
+
+<!-- parti body -->
+
+<body>
+
+    <h1>EVOGUE</h1>
+    <hr>
+    <h2> TP JQUERY</h2>
+    <hr>
+
+    <h2>Exercice n°1</h2>
+
+    <div id="blue"></div>
+    <button id="change">change</button>
+
+    <hr>
+
+
+
+
+    <h2>Exercice n°2</h2>
+    <img src="img/canon.jpg" id="canon" alt="">
+
+    <hr>
+
+
+
+
+    <h2>3éme Exercice</h2>
+
+    <div>
+        <input type="color" id="colorInputColor" onclick="changeColor()">
+        <input type="button" id="colorButton" value="Click to Change Color" onclick="chnageColor()"> 
+    </div>
+    <hr>
+
+
+
+<h2>4éme Exercice</h2>
+<div id="noire"> </div>
+
+
+
+<h2 class="center">Automatic Slideshow</h2>
+
+<div class="show">
+  <img class="mySlides" src="img/france.jpg">
+  <img class="mySlides" src="img/canon.jpg">
+  <img class="mySlides" src="img/intro.jpg">
+  <img class="mySlides" src="img/pi.jpg">
+  <img class="mySlides" src="img/nature.jpg">
+</div>
+
+
+
+
+<!-- parti script -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <script>
+//////////////////////////Premiere Exercice///////////////////////////////////////////////
+
+        // alert("hello")
+        $("#blue").ready(function(){
+            $("#blue").css
+                ({
+                background : "bleu"
+                });
+            });
+            $('#change').click(function()
+            {
+                $('#blue').css('background','#6CFF33');
+
+            });  
+
+  //////////////////2 éme exercice///////////////////////////////////
+
+
+        $('#canon').ready(function()
+            {
+                $('#canon').click(function(){
+                    $('#canon').css('height', '+=20px'); 
+                    $('#canon').css('width', '+=20px');
+                });
+            });
+
+
+//////////////////////////////////3éme exercice////////////////////////////////////////////
+
+function chnageColor(){
+    let color = document.getElementById('colorInputColor').value;
+     document.body.style.backgroundColor = color; 
+}
+
+
+
+  
+  //////////////////4 éme exercice///////////////////////////////////
+
+  $('#noire').ready(function(){
+      $('#noire').click(function(){
+          $('#noire').css('height', '200px');
+          $('#noire').css('width', '200px');
+      });
+  });
+
+
+
+//////////////////5 éme exercice///////////////////////////////////
+
+var slide = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var img = document.getElementsByClassName("mySlides");
+  for (i = 0; i < img.length; i++) {
+    img[i].style.display = "none";  
+  }
+  slide++;
+  if (slide > img.length) {slide = 1}    
+  img[slide-1].style.display = "block";  
+  setTimeout(carousel, 5000); // Change image every 5 seconds
+}
+
+    </script>
+
+</body>
+</html>
